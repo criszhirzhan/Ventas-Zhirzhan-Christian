@@ -5,6 +5,7 @@ import { ProductosService } from '../services/productos.service';
 import { ActivatedRoute, ActivatedRouteSnapshot } from '@angular/router';
 import { Observable } from 'rxjs';
 import { NotificacionesService } from '../services/notificaciones.service';
+//import { CallNumber } from '@ionic-native/call-number/ngx';
 
 @Component({
   selector: 'app-carrito',
@@ -31,5 +32,14 @@ async confirmarBorrado(uid: string) {
         "Esta seguro de borrar",
         this.borrarCarritoP.bind(this, uid));
 }
-
+/*
+ llamar() {
+  this.callNumber.callNumber("18001010101", true)
+  .then(res => console.log('Launched dialer!', res))
+  .catch(err => console.log('Error launching dialer', err));
 }
+*/
+}
+
+
+

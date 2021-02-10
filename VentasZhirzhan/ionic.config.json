@@ -1,5 +1,7 @@
 {
   "name": "VentasZhirzhan",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }

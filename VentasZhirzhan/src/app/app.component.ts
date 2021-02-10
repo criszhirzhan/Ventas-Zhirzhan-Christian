@@ -8,11 +8,10 @@ export class AppComponent {
   public appPages = [
     { title: 'Inicio', url: 'productos', icon: 'mail' },
     { title: 'Registrarse', url: 'registro', icon: 'paper-plane' },
-    { title: 'Favorites', url: '/folder/Favorites', icon: 'heart' },
-    { title: 'Archived', url: '/folder/Archived', icon: 'archive' },
-    { title: 'Carrito', url: 'carrito', icon: 'trash' },
-    { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
+    { title: 'Carrito', url: 'carrito', icon: 'archive' },
+
+    
   ];
-  public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
+ // public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
 }

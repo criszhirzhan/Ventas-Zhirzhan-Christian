@@ -5,5 +5,5 @@ export class Producto {
     precio: number;
     imagen: string;
     deleted:boolean;
-
+    numero:string;
 }
