@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>VerProducto</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+   <ion-card>
+        <img src={{producto.imagen}} />
+        <ion-card-header>
+          <ion-card-subtitle>{{producto.nombre}}</ion-card-subtitle>
+          <ion-card-title>{{producto.precio}} $</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          {{producto.descripcion}}
+        </ion-card-content>
+      </ion-card>
+      <ion-button (click)="agregarCarrito()" color="success">Agregar carrito</ion-button>
+</ion-content>
