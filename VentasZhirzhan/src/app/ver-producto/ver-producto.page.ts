@@ -38,6 +38,7 @@ export class VerProductoPage implements OnInit {
     this.carritoService.saveProducto(this.carrito);
     this.carrito = new Carrito();
     alert("Producto agregado");
+    this.router.navigate(['productos']);
   }
 
 }
